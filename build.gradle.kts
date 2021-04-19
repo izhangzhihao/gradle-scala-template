@@ -13,7 +13,7 @@ repositories {
 dependencies {
     implementation("org.scala-lang:scala-library:2.12.10")
     testImplementation("org.scalatest:scalatest_2.12:3.1.1")
-    testImplementation("junit:junit:4.12")
+    testImplementation("junit:junit:4.13.2")
 }
 
 scala {
