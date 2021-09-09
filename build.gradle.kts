@@ -11,11 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation("org.scala-lang:scala-library:2.13.6")
-    testImplementation("org.scalatest:scalatest_2.12:3.3.0-SNAP3")
-    testImplementation("junit:junit:4.13.2")
-}
-
-scala {
-    zincVersion.set("1.3.4")
+    implementation("org.scala-lang:scala3-library_3:3.0.1")
+    testImplementation("org.scalatest:scalatest_3:3.2.9")
+    testImplementation("junit:junit:4.13")
 }
